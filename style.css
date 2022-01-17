@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(236, 229, 229);
+}
+h2{
+    
+    font-weight: bold;
+    text-shadow: 3px 3px 5px gray;
+}
+#myCanvas
+{
+    background-color: rgb(255, 254, 254);
+    box-shadow: 3px 3px 10px gray;
+   width: 100vw;
+   height: 80vh;
+
+    border-bottom: 5px solid black;
+ 
+    margin-bottom: 5px;
+}
+#savearea
+{
+    display: none;
+}
+
+table
+{
+    width: 100%;
+}
+
+#canvasImg
+{
+    width: 75%;
+    height: 75%;
+   
+}
