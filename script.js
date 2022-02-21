@@ -32,9 +32,10 @@ document.getElementById('colorChange').addEventListener('change',function(){
     document.getElementById('myCanvas').style.display = "none";
     document.getElementById('savearea').style.display = "block";
     document.getElementById('tools').style.display = "none";
-    
-    var dataURL = document.getElementById('myCanvas').toDataURL();
-    document.getElementById('canvasImg').src = dataURL;
+    Savecanvas(canvas,"sketch","png");
+    /*var dataURL = document.getElementById('myCanvas').toDataURL();
+    document.getElementById('canvasImg').src = dataURL;*/
+      
 }, false);
 
 
